@@ -1,4 +1,4 @@
-### Veryfing TX in Komodo with OpenSSL
+### Verifying TX in Komodo with OpenSSL
 
 Ok, let's look how we can verify tx signatures using OpenSSL in Komodo. For example, we have following tx:
 
