@@ -69,7 +69,7 @@ How do we check - is this transaction valid? Is it correctly signed?
 
 1) Remove input script from transaction. We should remove bytes (do not forget about script len)
 
-	010000000145fcc037375a6d5a99ca8ea4efc1b8765a321c3682ce7c8323609400fc5d930001000000<len><scriptSig>feffffff0141e0f505000000001976a9147379e3d07f807bcac7909568e9818faa7ebe0f2688acd471ad5b
+	010000000145fcc037375a6d5a99ca8ea4efc1b8765a321c3682ce7c8323609400fc5d930001000000`<len><scriptSig>`feffffff0141e0f505000000001976a9147379e3d07f807bcac7909568e9818faa7ebe0f2688acd471ad5b
 
 2) Replace it with the funding script to RTCVGuoSNehKG8YYxcoskC7LK1yZhgvQRV , funding script is related to txid [00935dfc00946023837cce82361c325a76b8c1efa48eca995a6d5a3737c0fc45](https://kmdexplorer.io/tx/00935dfc00946023837cce82361c325a76b8c1efa48eca995a6d5a3737c0fc45)  and [vout 1](https://kmdexplorer.io/tx/00935dfc00946023837cce82361c325a76b8c1efa48eca995a6d5a3737c0fc45/%3E/1)  :
 
